@@ -1,5 +1,12 @@
+.navbar-fixed-top{ 
+  background: #402916;
+  font-family: rock salt;
+}
+.navbar navbar-default navbar-fixed-top{
+  font-color: #F2E687;
+}
 body{
-  background-color: #BF8A49
+  background-color: #BF8A49;
 }
 
 .jumbotron {
@@ -13,13 +20,13 @@ body{
 }
 
 .jumbotron h1 {
-  position: absolute;
-  top:60%;
-  left: 10%;
-  padding-left: 10px;
+  position: relative;
+  top:280px;
+  left: 20px;
   color: #F2E687;
-  font-size: 6em;
+  font-size: 4.5em;
   font-family: Rock Salt;
+}
 
 .text-center {
   font-family: Rock Salt;
@@ -27,15 +34,15 @@ body{
 
 .video-container { 
    position: relative; /* keeps the aspect ratio */ 
-   padding-bottom: 50%; /* fine tunes the video positioning */ 
-   padding-top: 100px; overflow: hidden;
-   width: 560px;
-   height: 315px;
-}
+   padding-bottom: 30%; /* fine tunes the video positioning */ 
+   padding-top: 80px; overflow: hidden;
+   width: 600px;
+   height: 334px;
 
 .video-container iframe,
 .video-container object,
-.video-container embed { position: absolute; top: 0; left: 0; width: 200%; height:} 200%; }
+.video-container embed { position: absolute; top: 0; left: 0; width: 100%; height:} 100%; 
+}
 
 footer {  
   padding-top: 10px;
