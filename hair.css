@@ -1,0 +1,54 @@
+body{
+  background-color: #BF8A49
+}
+
+.jumbotron {
+  background-image:url('http://retaildesignblog.net/wp-content/uploads/2013/04/Primula-hair-salon-by-Inly-Design-Naruo-Japan.jpg'); 
+  padding: 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-top: -40px;
+  background-position:  center;
+}
+
+.jumbotron h1 {
+  position: absolute;
+  top:60%;
+  left: 10%;
+  padding-left: 10px;
+  color: #F2E687;
+  font-size: 6em;
+  font-family: Rock Salt;
+
+.text-center {
+  font-family: Rock Salt;
+}
+
+.video-container { 
+   position: relative; /* keeps the aspect ratio */ 
+   padding-bottom: 50%; /* fine tunes the video positioning */ 
+   padding-top: 100px; overflow: hidden;
+   width: 560px;
+   height: 315px;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed { position: absolute; top: 0; left: 0; width: 200%; height:} 200%; }
+
+footer {  
+  padding-top: 10px;
+  font-family: Rock Salt;
+  color: #F2E687;
+  background-color:#402916;
+  height: 40px;
+}
+
+/*
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Your Font';
+}
+p, div {
+    font-family: 'Your Font';
+}
