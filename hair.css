@@ -1,10 +1,8 @@
 .navbar-fixed-top{ 
-  background: #402916;
+  background: #F2E687;
   font-family: rock salt;
 }
-.navbar navbar-default navbar-fixed-top{
-  font-color: #F2E687;
-}
+
 body{
   background-color: #BF8A49;
 }
